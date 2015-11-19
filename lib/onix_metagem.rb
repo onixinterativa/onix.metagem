@@ -1,3 +1,8 @@
+# requires all dependencies
+Gem.loaded_specs['onix_metagem'].dependencies.each do |d|
+ require d.name
+end
+
 require "onix_metagem/version"
 
 module OnixMetagem
@@ -19,7 +24,7 @@ module OnixMetagem
   def self.dependencies
     []
   end
-  
+
   if defined?(Rails)
     class Engine < ::Rails::Engine
       # Rails -> use app/assets directory.
@@ -28,8 +33,8 @@ module OnixMetagem
 
       assets.paths << OnixMetagem.gem_path.join('app/assets')
       assets.precompile << /\.(?:svg|eot|woff|ttf|otf)$/
-      assets.precompile += %w( theme.js respond.js html5shiv.js turbolinks.js )
-      assets.precompile += %w( theme.css )
+      assets.precompile += %w( onix_metagem.js respond.js html5shiv.js turbolinks.js )
+      assets.precompile += %w( onix_metagem.css )
     end
   end
 

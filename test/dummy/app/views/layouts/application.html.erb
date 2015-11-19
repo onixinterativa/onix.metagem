@@ -2,16 +2,13 @@
 <html>
 <head>
   <title>Dummy</title>
-  <%# stylesheet_link_tag 'theme', media: 'all', 'data-turbolinks-track' => true %>
-  <%# stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%# javascript_include_tag 'theme', 'data-turbolinks-track' => true %>
-  <%# javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'theme.js', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'onix_metagem', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'onix_metagem', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <div class="teste">
+    <i class="fa fa-cog"></i>
+  </div>
 </body>
 </html>

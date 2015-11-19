@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-source "https://rails-assets.org"
+# source "https://rails-assets.org"
 
 # Declare your gem's dependencies in onix_metagem.gemspec.
 # Bundler will treat runtime dependencies like base dependencies, and

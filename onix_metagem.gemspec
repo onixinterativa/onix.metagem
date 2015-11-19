@@ -20,10 +20,21 @@ Gem::Specification.new do |s|
   s.add_dependency "rails", "~> 4.2.4"
   s.add_dependency "coffee-rails", "~> 4.1.0"
   s.add_dependency "sass-rails"
+  s.add_dependency "enum_help"
+
+  # Form and Active Rectod tools
+  s.add_dependency "nested_form"
+  s.add_dependency "simple_form"
+  s.add_dependency "squeel"
 
   # Assets
+  s.add_dependency "jquery-rails"
+  s.add_dependency "turbolinks"
+  s.add_dependency "jquery-turbolinks"
+  s.add_dependency "jquery-ui-rails"
   s.add_dependency "bootstrap-sass"
   s.add_dependency "handlebars_assets"
+  s.add_dependency "best_in_place"
 
   s.add_dependency "rails-assets-adminlte"
   s.add_dependency "rails-assets-respond"
@@ -41,7 +52,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails-assets-toastr"
   s.add_dependency "rails-assets-ionicons"
   s.add_dependency "rails-assets-fontawesome", "4.3.0"
-  s.add_dependency "rails-assets-selectize"
+  s.add_dependency "rails-assets-select2"
   s.add_dependency "rails-assets-numeraljs"
   s.add_dependency "rails-assets-moment"
   s.add_dependency "rails-assets-bootstrap3-datetimepicker"
@@ -49,16 +60,22 @@ Gem::Specification.new do |s|
   s.add_dependency "rails-assets-bootstrap-datepicker"
   s.add_dependency "rails-assets-amcharts"
   s.add_dependency "rails-assets-jsuri"
-  s.add_dependency "rails-assets-vanilla-masker"
   s.add_dependency "rails-assets-jquery.validate"
-  s.add_dependency "rails-assets-shufflejs"
 
+  # Development Tools
   s.add_development_dependency "sqlite3"
   s.add_development_dependency "better_errors"
   s.add_development_dependency "binding_of_caller"
   s.add_development_dependency "meta_request"
   s.add_development_dependency "pry-rails"
   s.add_development_dependency "quiet_assets"
+
+  # Capistrano thinks
   s.add_development_dependency "capistrano"
+	s.add_development_dependency "capistrano-rails"
+	s.add_development_dependency "capistrano-rbenv"
+	s.add_development_dependency "capistrano-bundler"
+	s.add_development_dependency "capistrano3-puma"
+  #s.add_development_dependency "capistrano-secrets-yml"
 
 end
