@@ -4,14 +4,14 @@ PATH
     onix_metagem (0.0.1)
       best_in_place
       bootstrap-sass
-      coffee-rails (~> 4.1.0)
+      coffee-rails
       enum_help
       handlebars_assets
       jquery-rails
       jquery-turbolinks
       jquery-ui-rails
       nested_form
-      rails (~> 4.2.4)
+      rails (~> 4.2.0)
       rails-assets-DataTables
       rails-assets-adminlte
       rails-assets-amcharts
