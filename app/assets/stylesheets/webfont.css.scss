@@ -2,163 +2,20 @@
     font-family: 'AvenirLT-Medium';
     src:asset-url('2B97F0_0_0.eot');
     src:asset-url('2B97F0_0_0.eot?#iefix') format('embedded-opentype'),
-        asset-url('2B97F0_0_0.woff') format('woff'), 
+        asset-url('2B97F0_0_0.woff') format('woff'),
         asset-url('2B97F0_0_0.ttf') format('truetype');
 }
 @font-face {
     font-family: 'AvenirLTStd-Heavy';
     src:asset-url('2B97F0_1_0.eot');
     src:asset-url('2B97F0_1_0.eot?#iefix') format('embedded-opentype'),
-        asset-url('2B97F0_1_0.woff') format('woff'), 
+        asset-url('2B97F0_1_0.woff') format('woff'),
         asset-url('2B97F0_1_0.ttf') format('truetype');
 }
 @font-face {
     font-family: 'AvenirLTStd-Light';
     src:asset-url('2B97F0_2_0.eot');
-    src:asset-url('2B97F0_2_0.eot?#iefix') format('embedded-opentype'), 
-        asset-url('2B97F0_2_0.woff') format('woff'), 
+    src:asset-url('2B97F0_2_0.eot?#iefix') format('embedded-opentype'),
+        asset-url('2B97F0_2_0.woff') format('woff'),
         asset-url('2B97F0_2_0.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'syseduc';
-    src:asset-url('syseduc.eot?f2vs3n');
-    src:asset-url('syseduc.eot?f2vs3n#iefix') format('embedded-opentype'),
-        asset-url('syseduc.ttf?f2vs3n') format('truetype'),
-        asset-url('syseduc.woff?f2vs3n') format('woff'),
-        asset-url('syseduc.svg?f2vs3n#syseduc') format('svg');
-        font-weight: normal;
-        font-style: normal;
-}
-
-[class^="sys-"], [class*=" sys-"] {
-    font-family: 'syseduc';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.sys-aluno:before {
-    content: "\e901";
-}
-.sys-boletim:before {
-    content: "\e902";
-}
-.sys-carga-horaria:before {
-    content: "\e903";
-}
-.sys-componente-curricular:before {
-    content: "\e904";
-}
-.sys-data-nascimento:before {
-    content: "\e906";
-}
-.sys-diario-de-classe:before {
-    content: "\e907";
-}
-.sys-escola2:before {
-    content: "\e908";
-}
-.sys-nascimento:before {
-    content: "\e909";
-}
-.sys-nova-turma:before {
-    content: "\e90a";
-}
-.sys-novo-professor:before {
-    content: "\e90b";
-}
-.sys-professor:before {
-    content: "\e90c";
-}
-.sys-telefone:before {
-    content: "\e90d";
-}
-.sys-administracao:before {
-    content: "\e800";
-}
-.sys-alunos:before {
-    content: "\e801";
-}
-.sys-alunos-3:before {
-    content: "\e802";
-}
-.sys-alunos-2:before {
-    content: "\e803";
-}
-.sys-alunos-1:before {
-    content: "\e804";
-}
-.sys-avaliacoes:before {
-    content: "\e805";
-}
-.sys-componentes-curriculares:before {
-    content: "\e806";
-}
-.sys-configuracoes:before {
-    content: "\e807";
-}
-.sys-escola:before {
-    content: "\e808";
-}
-.sys-estatisticas:before {
-    content: "\e809";
-}
-.sys-login:before {
-    content: "\e80a";
-}
-.sys-matricular-aluno:before {
-    content: "\e80b";
-}
-.sys-mensagens:before {
-    content: "\e80c";
-}
-.sys-menu:before {
-    content: "\e80d";
-}
-.sys-ordenar:before {
-    content: "\e80e";
-}
-.sys-professores:before {
-    content: "\e80f";
-}
-.sys-turmas:before {
-    content: "\e810";
-}
-.sys-usuario:before {
-    content: "\e811";
-}
-.sys-user:before {
-    content: "\f007";
-}
-.sys-home:before {
-    content: "\f015";
-}
-.sys-suitcase:before {
-    content: "\f0f2";
-}
-.sys-building-o:before {
-    content: "\f0f7";
-}
-.sys-medkit:before {
-    content: "\f0fa";
-}
-.sys-file-text:before {
-    content: "\f15c";
-}
-.sys-location-pin:before {
-    content: "\e900";
-}
-.sys-pencil:before {
-    content: "\e905";
-}
-.sys-files-empty:before {
-    content: "\e925";
 }

@@ -61,21 +61,6 @@ Gem::Specification.new do |s|
   s.add_dependency "rails-assets-amcharts"
   s.add_dependency "rails-assets-jsuri"
   s.add_dependency "rails-assets-jquery.validate"
-
-  # Development Tools
+  
   s.add_development_dependency "sqlite3"
-  s.add_development_dependency "better_errors"
-  s.add_development_dependency "binding_of_caller"
-  s.add_development_dependency "meta_request"
-  s.add_development_dependency "pry-rails"
-  s.add_development_dependency "quiet_assets"
-
-  # Capistrano thinks
-  s.add_development_dependency "capistrano"
-	s.add_development_dependency "capistrano-rails"
-	s.add_development_dependency "capistrano-rbenv"
-	s.add_development_dependency "capistrano-bundler"
-	s.add_development_dependency "capistrano3-puma"
-  #s.add_development_dependency "capistrano-secrets-yml"
-
 end
