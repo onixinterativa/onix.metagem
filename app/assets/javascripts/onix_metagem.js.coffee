@@ -28,6 +28,7 @@
 #= require best_in_place
 #= require best_in_place.jquery-ui
 #= require jsuri
+#= require jquery-maskedinput
 
 toastr.options = {
   "closeButton": false,

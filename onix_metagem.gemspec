@@ -32,11 +32,11 @@ Gem::Specification.new do |s|
   s.add_dependency "turbolinks"
   s.add_dependency "jquery-turbolinks"
   s.add_dependency "jquery-ui-rails"
-  s.add_dependency "bootstrap-sass"
   s.add_dependency "handlebars_assets"
   s.add_dependency "best_in_place"
 
   s.add_dependency "rails-assets-adminlte"
+  s.add_dependency "rails-assets-bootstrap"
   s.add_dependency "rails-assets-respond"
   s.add_dependency "rails-assets-html5shiv"
   s.add_dependency "rails-assets-pace"
@@ -46,7 +46,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails-assets-backbone"
   s.add_dependency "rails-assets-greensock"
   s.add_dependency "rails-assets-DataTables"
-  s.add_dependency "rails-assets-slimScroll"
+  s.add_dependency "rails-assets-slimScroll", "1.3.3"
   s.add_dependency "rails-assets-fastclick"
   s.add_dependency "rails-assets-iCheck"
   s.add_dependency "rails-assets-toastr"
@@ -57,10 +57,11 @@ Gem::Specification.new do |s|
   s.add_dependency "rails-assets-moment"
   s.add_dependency "rails-assets-bootstrap3-datetimepicker"
   s.add_dependency "rails-assets-bootstrap-daterangepicker"
-  s.add_dependency "rails-assets-bootstrap-datepicker"
+  s.add_dependency "rails-assets-bootstrap-datepicker", "1.4.1"
   s.add_dependency "rails-assets-amcharts"
   s.add_dependency "rails-assets-jsuri"
   s.add_dependency "rails-assets-jquery.validate"
-  
+  s.add_dependency "rails-assets-jquery-maskedinput"
+
   s.add_development_dependency "sqlite3"
 end
