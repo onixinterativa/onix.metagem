@@ -52,7 +52,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails-assets-toastr"
   s.add_dependency "rails-assets-ionicons"
   s.add_dependency "rails-assets-fontawesome", "4.3.0"
-  s.add_dependency "rails-assets-select2"
+  s.add_dependency "rails-assets-select2", "3.5.4"
   s.add_dependency "rails-assets-numeraljs"
   s.add_dependency "rails-assets-moment"
   s.add_dependency "rails-assets-bootstrap3-datetimepicker"
