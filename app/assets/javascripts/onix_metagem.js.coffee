@@ -10,7 +10,8 @@
 #= require fastclick
 #= require adminlte
 #= require select2
-#= require select2/i18n/pt-BR
+## require select2/i18n/pt-BR
+#= require select2/select2_locale_pt-BR
 #= require toastr
 #= require numeraljs
 #= require numeraljs/languages/pt-br

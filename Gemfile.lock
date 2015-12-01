@@ -35,7 +35,7 @@ PATH
       rails-assets-numeraljs
       rails-assets-pace
       rails-assets-respond
-      rails-assets-select2
+      rails-assets-select2 (= 3.5.4)
       rails-assets-slimScroll (= 1.3.3)
       rails-assets-toastr
       sass-rails
@@ -98,7 +98,7 @@ GEM
     execjs (2.6.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
-    handlebars_assets (0.21.0)
+    handlebars_assets (0.22.0)
       execjs (~> 2.0)
       multi_json (~> 1.0)
       sprockets (>= 2.0.0, < 4.0)
@@ -161,7 +161,7 @@ GEM
       rails-assets-moment-timezone (>= 0.4.0)
     rails-assets-fastclick (1.0.6)
     rails-assets-fontawesome (4.3.0)
-    rails-assets-fullcalendar (2.4.0)
+    rails-assets-fullcalendar (2.5.0)
       rails-assets-jquery (>= 1.7.1)
       rails-assets-moment (>= 2.5.0)
     rails-assets-greensock (1.18.0)
@@ -183,7 +183,8 @@ GEM
     rails-assets-numeraljs (1.5.3)
     rails-assets-pace (1.0.2)
     rails-assets-respond (1.4.2)
-    rails-assets-select2 (4.0.0)
+    rails-assets-select2 (3.5.4)
+      rails-assets-jquery (>= 1.7.1)
     rails-assets-slimScroll (1.3.3)
       rails-assets-jquery (>= 1.7)
     rails-assets-toastr (2.1.2)
