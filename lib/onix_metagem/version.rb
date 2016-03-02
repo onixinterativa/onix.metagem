@@ -1,3 +1,5 @@
+require 'git-version-bump'
+
 module OnixMetagem
-  VERSION = "0.0.3"
+  VERSION = GVB.version
 end
