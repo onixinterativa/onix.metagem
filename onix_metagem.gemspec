@@ -45,7 +45,7 @@ Gem::Specification.new do |s|
   s.add_dependency "rails-assets-pace"
   s.add_dependency "rails-assets-fullcalendar"
   s.add_dependency "rails-assets-modernizr"
-  s.add_dependency "rails-assets-lodash"
+  s.add_dependency "rails-assets-lodash", '3.10.1'
   s.add_dependency "rails-assets-backbone"
   s.add_dependency "rails-assets-greensock"
   s.add_dependency "rails-assets-DataTables"
