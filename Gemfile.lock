@@ -1,11 +1,10 @@
 PATH
   remote: .
   specs:
-    onix_metagem (0.1.2.4.g77c9e46.1.dirty.20160314.152739)
+    onix_metagem (0.1.0)
       best_in_place
       coffee-rails
       enum_help
-      git-version-bump
       handlebars_assets
       jquery-rails
       jquery-turbolinks
@@ -98,7 +97,6 @@ GEM
     enum_help (0.0.14)
     erubis (2.7.0)
     execjs (2.6.0)
-    git-version-bump (0.15.1)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     handlebars_assets (0.23.0)
