@@ -6,8 +6,8 @@ require "onix_metagem/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "onix_metagem"
-  s.version     = GVB.version
-  s.date        = GVB.date
+  s.version     = OnixMetagem::VERSION
+  s.date        = OnixMetagem::DATE
   s.authors     = ["Ivo Marcelo Leonardi Zaniolo"]
   s.email       = ["marcelo@onixinterativa.com.br"]
   s.homepage    = "http://onixinterativa.com.br"
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "git-version-bump"
 
-  s.add_dependency "rails", "~> 4.2.0"
+  s.add_dependency "rails", "~> 4.2"
   s.add_dependency "coffee-rails"
   s.add_dependency "sass-rails"
   s.add_dependency "enum_help"
