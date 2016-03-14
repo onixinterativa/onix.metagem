@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    onix_metagem (0.1.0)
+    onix_metagem (0.1.4.1.dirty.20160314.175254)
       best_in_place
       coffee-rails
       enum_help
