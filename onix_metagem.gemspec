@@ -1,12 +1,13 @@
 $:.push File.expand_path("../lib", __FILE__)
 
-require 'git-version-bump'
+# Maintain your gem's version:
+require "onix_metagem/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "onix_metagem"
-  s.version     = GVB.version
-  s.date        = GVB.date
+  s.version     = OnixMetagem::VERSION
+  # s.date        = OnixMetagem::DATE
   s.authors     = ["Ivo Marcelo Leonardi Zaniolo"]
   s.email       = ["marcelo@onixinterativa.com.br"]
   s.homepage    = "http://onixinterativa.com.br"
